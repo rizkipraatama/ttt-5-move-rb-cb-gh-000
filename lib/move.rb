@@ -11,3 +11,8 @@ def input_to_index(input)
   newint = input.to_i
   return newint - 1
 end
+
+def update_array_at_with(array, index, value)
+  array[index] = value
+end
+
