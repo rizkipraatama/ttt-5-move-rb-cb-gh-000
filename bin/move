@@ -9,5 +9,5 @@ number=gets.strip
 indexnumber = input_to_index(number)
 puts indexnumber
 board = [" "," "," "," "," "," "," "," "," "]
-move(board,indexnumber, "X")
+move(board,indexnumber)
 display_board(board)
