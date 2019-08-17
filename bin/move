@@ -9,5 +9,5 @@ number=gets.strip
 indexnumber = input_to_index(number)
 puts indexnumber
 board = [" "," "," "," "," "," "," "," "," "]
-afterupdate = update_array_at_with(board,indexnumber, "X")
+puts update_array_at_with(board,indexnumber, "X")
 display_board(afterupdate)
