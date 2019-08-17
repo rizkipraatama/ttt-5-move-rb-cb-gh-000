@@ -7,6 +7,7 @@ puts "Welcome to Tic Tac Toe!"
 puts "Where would you like to go?"
 number=gets.strip
 indexnumber = input_to_index(number)
+puts indexnumber
 board = [" "," "," "," "," "," "," "," "," "]
 afterupdate = update_array_at_with(board,indexnumber, "X")
 display_board(afterupdate)
