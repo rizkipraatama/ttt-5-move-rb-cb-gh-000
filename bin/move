@@ -10,3 +10,4 @@ indexnumber = input_to_index(number)
 puts indexnumber
 board = [" "," "," "," "," "," "," "," "," "]
 update_array_at_with(board,indexnumber, X)
+display_board(board)
